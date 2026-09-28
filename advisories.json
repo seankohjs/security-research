@@ -1,0 +1,149 @@
+{
+  "last_verified": "2026-09-28",
+  "advisories": [
+    {
+      "project": "emmett-framework/core",
+      "title": "emmett-core: unauthenticated path traversal / arbitrary file read via the /static/ handler",
+      "ghsa": "GHSA-552r-8hg7-gq89",
+      "advisory_url": "https://github.com/emmett-framework/core/security/advisories/GHSA-552r-8hg7-gq89",
+      "cve": null,
+      "severity": "high",
+      "published": "2026-09-27"
+    },
+    {
+      "project": "tinytag/tinytag",
+      "title": "Infinite loop when parsing certain M4A files containing invalid atoms",
+      "ghsa": "GHSA-24cc-9352-h2pg",
+      "advisory_url": "https://github.com/tinytag/tinytag/security/advisories/GHSA-24cc-9352-h2pg",
+      "cve": null,
+      "severity": "medium",
+      "published": "2026-07-30"
+    },
+    {
+      "project": "facelessuser/pymdown-extensions",
+      "title": "pymdown-extensions: exponential-backtracking ReDoS in caret, tilde, betterem, and magiclink inline processors",
+      "ghsa": "GHSA-gm37-52c6-37mw",
+      "advisory_url": "https://github.com/facelessuser/pymdown-extensions/security/advisories/GHSA-gm37-52c6-37mw",
+      "cve": "CVE-2026-67422",
+      "severity": "high",
+      "published": "2026-07-29"
+    },
+    {
+      "project": "gitpython-developers/GitPython",
+      "title": "GitPython: git-config section-name injection enables arbitrary config directives (core.sshCommand RCE)",
+      "ghsa": "GHSA-3rp5-jjmw-4wv2",
+      "advisory_url": "https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-3rp5-jjmw-4wv2",
+      "cve": null,
+      "severity": "high",
+      "published": "2026-07-20"
+    },
+    {
+      "project": "danielgatis/rembg",
+      "title": "rembg: SSRF filter bypass via HTTP redirect in the `/api/remove` URL endpoint",
+      "ghsa": "GHSA-9r52-rh6g-wr6j",
+      "advisory_url": "https://github.com/danielgatis/rembg/security/advisories/GHSA-9r52-rh6g-wr6j",
+      "cve": null,
+      "severity": "medium",
+      "published": "2026-07-18"
+    },
+    {
+      "project": "rucio/rucio",
+      "title": "Authorisation Bypass on REST API endpoint for signing URLs",
+      "ghsa": "GHSA-5j9r-fx4x-rpvg",
+      "advisory_url": "https://github.com/rucio/rucio/security/advisories/GHSA-5j9r-fx4x-rpvg",
+      "cve": "CVE-2026-58273",
+      "severity": "high",
+      "published": "2026-07-15"
+    },
+    {
+      "project": "pydantic/pydantic-ai",
+      "title": "UI adapters (AG-UI, Vercel AI): a dangling client-submitted tool call can execute when a trailing message is dropped during `sanitize_messages`",
+      "ghsa": "GHSA-jpr8-2v3g-wgf9",
+      "advisory_url": "https://github.com/pydantic/pydantic-ai/security/advisories/GHSA-jpr8-2v3g-wgf9",
+      "cve": "CVE-2026-65975",
+      "severity": "medium",
+      "published": "2026-07-11"
+    },
+    {
+      "project": "trailofbits/fickling",
+      "title": "fickling <= 0.1.11: dotted GLOBAL/STACK_GLOBAL imports bypass check_safety(), enabling RCE",
+      "ghsa": "GHSA-5j3x-jp52-966f",
+      "advisory_url": "https://github.com/trailofbits/fickling/security/advisories/GHSA-5j3x-jp52-966f",
+      "cve": null,
+      "severity": "high",
+      "published": "2026-06-27"
+    },
+    {
+      "project": "OctoPrint/OctoPrint",
+      "title": "File exfiltration possible via further parameter injection on upload endpoints",
+      "ghsa": "GHSA-j4h9-pm27-4rfw",
+      "advisory_url": "https://github.com/OctoPrint/OctoPrint/security/advisories/GHSA-j4h9-pm27-4rfw",
+      "cve": "CVE-2026-54134",
+      "severity": "high",
+      "published": "2026-06-23"
+    },
+    {
+      "project": "lepture/mistune",
+      "title": "mistune: quadratic-time DoS in inline link parser on unbalanced [",
+      "ghsa": "GHSA-x2gr-6qf2-fc9x",
+      "advisory_url": "https://github.com/lepture/mistune/security/advisories/GHSA-x2gr-6qf2-fc9x",
+      "cve": null,
+      "severity": "high",
+      "published": "2026-06-21"
+    },
+    {
+      "project": "unclecode/crawl4ai",
+      "title": "Unauthenticated SSRF on the Docker server streaming crawl path (/crawl/stream)",
+      "ghsa": "GHSA-wm69-2pc3-rmmf",
+      "advisory_url": "https://github.com/unclecode/crawl4ai/security/advisories/GHSA-wm69-2pc3-rmmf",
+      "cve": "CVE-2026-57573",
+      "severity": "high",
+      "published": "2026-06-18"
+    },
+    {
+      "project": "copier-org/copier",
+      "title": "Copier: trust-prefix bypass via path traversal runs tasks unprompted",
+      "ghsa": "GHSA-9gmc-jqmh-3rvm",
+      "advisory_url": "https://github.com/copier-org/copier/security/advisories/GHSA-9gmc-jqmh-3rvm",
+      "cve": "CVE-2026-53951",
+      "severity": "high",
+      "published": "2026-06-13"
+    },
+    {
+      "project": "tornadoweb/tornado",
+      "title": "CurlAsyncHTTPClient leaks per-request credentials on handle reuse",
+      "ghsa": "GHSA-pw6j-qg29-8w7f",
+      "advisory_url": "https://github.com/tornadoweb/tornado/security/advisories/GHSA-pw6j-qg29-8w7f",
+      "cve": null,
+      "severity": "medium",
+      "published": "2026-06-08"
+    },
+    {
+      "project": "bugsink/bugsink",
+      "title": "DOS using large numbers of event tags",
+      "ghsa": "GHSA-5x67-j5xg-c5gj",
+      "advisory_url": "https://github.com/bugsink/bugsink/security/advisories/GHSA-5x67-j5xg-c5gj",
+      "cve": "CVE-2026-53954",
+      "severity": "medium",
+      "published": "2026-06-04"
+    },
+    {
+      "project": "psd-tools/psd-tools",
+      "title": "psd-tools: arbitrary file write/read via smart-object filename",
+      "ghsa": "GHSA-2rmg-vrx8-9j2f",
+      "advisory_url": "https://github.com/psd-tools/psd-tools/security/advisories/GHSA-2rmg-vrx8-9j2f",
+      "cve": "CVE-2026-49836",
+      "severity": "medium",
+      "published": "2026-06-02"
+    },
+    {
+      "project": "EmilStenstrom/justhtml",
+      "title": "justhtml: to_markdown() code-span blank-line breakout enables XSS",
+      "ghsa": "GHSA-jf6w-2mvx-633j",
+      "advisory_url": "https://github.com/EmilStenstrom/justhtml/security/advisories/GHSA-jf6w-2mvx-633j",
+      "cve": null,
+      "severity": "medium",
+      "published": "2026-05-22"
+    }
+  ]
+}
