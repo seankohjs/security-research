@@ -1,12 +1,12 @@
 {
-  "last_verified": "2026-09-28",
+  "last_verified": "2026-10-04",
   "advisories": [
     {
       "project": "emmett-framework/core",
       "title": "emmett-core: unauthenticated path traversal / arbitrary file read via the /static/ handler",
       "ghsa": "GHSA-552r-8hg7-gq89",
       "advisory_url": "https://github.com/emmett-framework/core/security/advisories/GHSA-552r-8hg7-gq89",
-      "cve": null,
+      "cve": "CVE-2026-102654",
       "severity": "high",
       "published": "2026-09-27"
     },
@@ -15,7 +15,7 @@
       "title": "Infinite loop when parsing certain M4A files containing invalid atoms",
       "ghsa": "GHSA-24cc-9352-h2pg",
       "advisory_url": "https://github.com/tinytag/tinytag/security/advisories/GHSA-24cc-9352-h2pg",
-      "cve": null,
+      "cve": "CVE-2026-104266",
       "severity": "medium",
       "published": "2026-07-30"
     },
