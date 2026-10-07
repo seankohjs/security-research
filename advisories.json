@@ -1,6 +1,24 @@
 {
-  "last_verified": "2026-10-04",
+  "last_verified": "2026-10-07",
   "advisories": [
+    {
+      "project": "aws/bedrock-agentcore-starter-toolkit",
+      "title": "Improper outbound requests and local file reads agent import",
+      "ghsa": "GHSA-5xmr-2rcp-3j75",
+      "advisory_url": "https://github.com/aws/bedrock-agentcore-starter-toolkit/security/advisories/GHSA-5xmr-2rcp-3j75",
+      "cve": "CVE-2026-106032",
+      "severity": "medium",
+      "published": "2026-10-06"
+    },
+    {
+      "project": "aws/bedrock-agentcore-starter-toolkit",
+      "title": "Generated code injection from crafted Bedrock Agent data",
+      "ghsa": "GHSA-37r5-8xpw-vxp9",
+      "advisory_url": "https://github.com/aws/bedrock-agentcore-starter-toolkit/security/advisories/GHSA-37r5-8xpw-vxp9",
+      "cve": "CVE-2026-105812",
+      "severity": "critical",
+      "published": "2026-10-06"
+    },
     {
       "project": "emmett-framework/core",
       "title": "emmett-core: unauthenticated path traversal / arbitrary file read via the /static/ handler",

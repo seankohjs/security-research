@@ -20,7 +20,7 @@
         <p class="eyebrow">Selected work · May–August 2026</p>
         <h1 id="page-title">Security research</h1>
         <p class="description">Public vulnerability disclosures from my work on SMU’s <a href="https://titancaproject.github.io/">TITAN project</a>, combining AI-assisted research with human validation and reproducible proofs of concept.</p>
-        <p class="stats"><strong>16</strong> public advisories <span aria-hidden="true">/</span> <strong>10</strong> linked CVE IDs</p>
+        <p class="stats"><strong>18</strong> public advisories <span aria-hidden="true">/</span> <strong>12</strong> linked CVE IDs</p>
       </section>
       <section id="advisories" aria-labelledby="advisory-heading" tabindex="-1">
         <div class="section-heading">
@@ -33,6 +33,30 @@
             <tr><th scope="col">Project / finding</th><th scope="col">Advisory links</th><th scope="col">Severity</th><th scope="col">Published</th></tr>
           </thead>
           <tbody>
+          <tr id="GHSA-5xmr-2rcp-3j75">
+            <th scope="row">
+              <a class="project" href="https://github.com/aws/bedrock-agentcore-starter-toolkit">aws/bedrock-agentcore-starter-toolkit</a>
+              <p class="finding">Improper outbound requests and local file reads agent import</p>
+            </th>
+            <td class="identifiers">
+              <a href="https://www.cve.org/CVERecord?id=CVE-2026-106032">CVE-2026-106032</a>
+              <a href="https://github.com/aws/bedrock-agentcore-starter-toolkit/security/advisories/GHSA-5xmr-2rcp-3j75">GHSA-5xmr-2rcp-3j75</a>
+            </td>
+            <td class="classification"><span class="severity medium">Medium</span></td>
+            <td class="date"><time datetime="2026-10-06">06 Oct 2026</time></td>
+          </tr>
+          <tr id="GHSA-37r5-8xpw-vxp9">
+            <th scope="row">
+              <a class="project" href="https://github.com/aws/bedrock-agentcore-starter-toolkit">aws/bedrock-agentcore-starter-toolkit</a>
+              <p class="finding">Generated code injection from crafted Bedrock Agent data</p>
+            </th>
+            <td class="identifiers">
+              <a href="https://www.cve.org/CVERecord?id=CVE-2026-105812">CVE-2026-105812</a>
+              <a href="https://github.com/aws/bedrock-agentcore-starter-toolkit/security/advisories/GHSA-37r5-8xpw-vxp9">GHSA-37r5-8xpw-vxp9</a>
+            </td>
+            <td class="classification"><span class="severity critical">Critical</span></td>
+            <td class="date"><time datetime="2026-10-06">06 Oct 2026</time></td>
+          </tr>
           <tr id="GHSA-552r-8hg7-gq89">
             <th scope="row">
               <a class="project" href="https://github.com/emmett-framework/core">emmett-framework/core</a>
@@ -231,7 +255,7 @@
     </main>
     <footer>
       <p>Titles, severity, and identifiers are sourced from the linked maintainer advisories.</p>
-      <p>Verified <time datetime="2026-10-04">04 October 2026</time> · <a href="https://github.com/seankohjs/security-research">Page source</a></p>
+      <p>Verified <time datetime="2026-10-07">07 October 2026</time> · <a href="https://github.com/seankohjs/security-research">Page source</a></p>
     </footer>
   </div>
 </body>
